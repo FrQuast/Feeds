@@ -1,0 +1,398 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url('img/fundo-4.jpg');
+	background-size: cover;
+
+}
+main{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+article{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 50px;
+}
+aside{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.texto1{
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	margin-top: 50px;
+
+}
+.texto-principal{
+	text-transform: uppercase;
+	color: black;
+	margin-bottom:10px;
+	font-size: 50px; 
+}
+.paragrafo{
+	text-transform: uppercase;
+	color: black;
+	margin-bottom: 10px;
+	font-size: 20px; 
+}
+#pro{
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #212529;
+	color: white;
+}
+#receber{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin-right: 50px;
+	border-radius: 50px;
+}
+#receber1{
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+#receber2{
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+.img1{
+	background-image: url(img/arroz.jpg);
+	background-size: cover;
+}
+.img3{
+	background-image: url(img/carne.jpg);
+	background-size: cover;
+}
+.img2{
+	background-image: url(img/feijao.jpg);
+	background-size: cover;
+}
+.display{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.cabeca{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*TABELA-----NUTRICIONAL---*/
+.estiloBtn{
+	border-radius: 5px;
+	background-color: #212529;
+	padding: 5px;
+	color: #fff;
+	margin-right: 15px;
+}
+.display2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+#tabelaNutricional1{
+	width: 150px;
+	height: 100px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+#tabelaNutricional2{
+	width: 150px;
+	height: 100px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+#tabelaNutricional3{
+	width: 150px;
+	height: 100px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+/*AQUI VAI O SEUS VALORES*/
+.fundo{
+	background-image: url('img/fundo-alimentação.jpg');
+	background-size: cover;
+}
+.seuValores{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;	
+}
+#pro2{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+}
+.alinhaGenero{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#peso{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#altura{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#idade{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#enviar{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#calDiaria{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+/*RESULTADO DOS VALORES OBTIDOS*/
+.resValores{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#carbo{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#proteina{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#gordura{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#agua{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+.setMacro{
+	color: black;
+	text-align: center;
+}
+.inCol{
+	display: flex;
+	flex-direction: column;
+}
+/*flash messagem validação*/
+
+.validacao{
+	background-color: #313130;
+	position: fixed;
+	top: 190px;
+	left: 330px;
+	text-align: center;
+	color: white;
+	animation: fade-in 3s ease;
+	border-radius: 5px;
+}
+.snackbar{
+	
+	color: white;
+}
+.fadeout{
+	animation: fade-out 1s ease 2s forwards;
+}
+@keyframes fade-in{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes fade-out{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#carbo2{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#proteina3{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#gordura4{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+#agua{
+	border-radius: 10px;
+	width: 250px;
+	border-radius: 10px;
+	padding: 10px;
+	outline: 0;
+	border: none;
+	background-color: #313130;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+}
+.resValores2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.setMacro2{
+	text-align: center;
+	margin-right: 15px;
+}

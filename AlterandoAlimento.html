@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trocando Alimentos</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+<body>
+	<div class="fundo">
+	<div class="seuValores">
+		<div class="inCol">
+		<h1 class="setMacro">Seus valores</h1>
+		<div class="validacao fade-out" id="valida">
+			
+		</div>
+		
+		<select id="pro2">
+			<option value="frequencia" id="frequencia" selected="selected" disabled="disabled">Frequencia de atividade</option>
+			<option value="1">sendetario</option>
+			<option value="2">Levemente ativo</option>
+			<option value="3">Moderadamente ativo</option>
+			<option value="4">Muito ativo</option>
+			<option value="5">Extremamente ativo</option>
+		</select>
+		
+		<select id="genero" class="alinhaGenero" >
+		<option selected="selected"  disabled="disabled">Sexo</option>
+		<option>Masculino</option>
+		<option>Feminino</option>
+		</select>
+		
+		<input id="peso" type="text"  placeholder="Peso">
+		<input id="altura" type="text"  placeholder="Altura">
+		<input id="idade" type="text" placeholder="Idade">
+		<button onclick="calcularCaloriasDiariasMulherEHomem(),calCarbo(),calProteina(),calGordura()" id="enviar" type="submit">Enviar</button>
+		<h3 class="setMacro">Calorias diarias</h3>
+		<input disabled="disabled" id="calDiaria" type="text"  name="">
+		
+	</div>
+	<div class="resValores">
+		<span class="setMacro">Carboidrato</span>
+		<input disabled="disabled" id="carbo" type="text">
+		<span class="setMacro">Proteina</span>
+		<input disabled="disabled" id="proteina" type="text">
+		<span class="setMacro">Gordura</span>
+		<input disabled="disabled" id="gordura" type="text">
+		<span class="setMacro">Agua</span>
+		<input disabled="disabled" id="agua" type="text">
+	</div>	
+	</div>
+</div>
+	<div class="container">
+	<main>
+		<article>
+			<h1 class="texto-principal">Monte sua refeição</h1>
+			<p class="paragrafo">Escolher bons alimentos<br> irá te ajudar na sua dieta</p>
+		<select id="pro">
+			<option disabled="disabled" id="text" value="escolha sua refeição" selected>Escolha seu alimento</option>
+			<!--<option id="text" value="1">Arroz</option>
+			<option id="text2" value="2">Feijão</option>
+			<option  value="3">Carne</option>-->
+		</select>
+		</article>
+		<aside>
+			<h1 class="texto1">Primeira refeição</h1>
+			<div class="display">
+				<button class="estiloBtn" onclick="remove1()" id="btn1">remover</button>
+		<div  id="receber"></div>
+		<button class="estiloBtn" onclick="remove2()" id="btn2">remover</button>
+		<div  id="receber1"></div>
+		<button class="estiloBtn" onclick="remove3()" id="btn3">remover</button>
+		<div  id="receber2"></div>
+		</div>
+		<div class="display2">
+			
+			<div id="tabelaNutricional1"></div>
+			
+			<div id="tabelaNutricional2"></div>
+			
+			<div id="tabelaNutricional3"></div>
+		</div>
+		</aside>
+				
+	</main>
+	<div class="resValores2">
+		<span class="setMacro2">Carboidrato</span>
+		<input disabled="disabled" id="carbo2" type="text">
+		<span class="setMacro2">Proteina</span>
+		<input disabled="disabled" id="proteina3" type="text">
+		<span class="setMacro2">Gordura</span>
+		<input disabled="disabled" id="gordura4" type="text">
+		<span class="setMacro2">Agua</span>
+		<input disabled="disabled" id="agua" type="text">
+	</div>
+	
+	</div>
+	
+	<script src="all.js"></script>                                                                                                                 
+	</body>
+</html>
